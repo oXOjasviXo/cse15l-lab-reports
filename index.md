@@ -1,6 +1,6 @@
-#YEEEEEEEEEEEEET
+# YEEEEEEEEEEEEET
 
-##Hello World!
+## Hello World!
 
 *italics*
 
@@ -14,10 +14,10 @@ look at this cool imageI spent 300 Hrs looking for from [this website](https://p
 
 >This is cool quote! -Quotes
 
-*listing
-*lists
-*is
-*listing
+* listing
+* lists
+* is
+* listing
 
 1. numbers
 2. can 
