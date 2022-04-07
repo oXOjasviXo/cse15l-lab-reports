@@ -1,11 +1,19 @@
 #YEEEEEEEEEEEEET
+
 ##Hello World!
+
 *italics*
+
 **bold**
+
 [Link to my CS15L github](https://oxojasvixo.github.io/cse15l-lab-reports/)
+
 look at this cool imageI spent 300 Hrs looking for from [this website](https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/)
+
 ![Img](https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg)
+
 >This is cool quote! -Quotes
+
 *listing
 *lists
 *is
@@ -21,7 +29,9 @@ look at this cool imageI spent 300 Hrs looking for from [this website](https://p
 
 I dunno what this is:
 ---
+
 `I am hacker` hacking
+
 ```
 I am huge hacking hacker
 super saiyn hacker 
