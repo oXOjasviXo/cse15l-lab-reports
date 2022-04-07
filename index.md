@@ -14,6 +14,10 @@ look at this cool imageI spent 300 Hrs looking for from [this website](https://p
 
 >This is cool quote! -Quotes
 
+![warframe](Warframe0000.jpg)
+
+![screenshot](Picture1.png)
+
 * listing
 * lists
 * is
