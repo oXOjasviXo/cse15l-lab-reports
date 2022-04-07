@@ -6,6 +6,8 @@
 
 **bold**
 
+[Link to Lab 1](lab-report-1-week-2.md)
+
 [Link to my CS15L github](https://oxojasvixo.github.io/cse15l-lab-reports/)
 
 look at this cool imageI spent 300 Hrs looking for from [this website](https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/)
