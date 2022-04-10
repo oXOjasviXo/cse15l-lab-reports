@@ -67,6 +67,6 @@
 2. By adding a semicolon you can run multiple commands.
 
     `ssh cs15lsp22<your_username>@ieng6.ucsd.edu "javac Test.java; java Test"`
-3. Use the up arrow to go and access previously used commands.
+3. Use the up arrow to go and access previously used commands. (Helps when testing code on server or just in general too)
 
     ![SPEED_running](Screenshots/LAB1_SPEED.png)
