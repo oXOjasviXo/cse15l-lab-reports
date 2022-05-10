@@ -9,29 +9,29 @@
 
 Config:
 
-![config](screenshots/SSHConfig.png)
+![config](Screenshots/SSHConfig.png)
 
 Terminal Login:
 
-![Login](screenshots/SSHStreamline.png)
+![Login](Screenshots/SSHStreamline.png)
 
 Copy using `scp` :
 
-![Copy](screenshots/SSHCopy.png)
+![Copy](Screenshots/SSHCopy.png)
 
 ## Github Access from ieng6:
 
 Public key storted on Github:
 
-![PubKey](screenshots/ieng6GitKey.png)
+![PubKey](Screenshots/ieng6GitKey.png)
 
 Private key in ieng6 (circled in blue):
 
-![PrivKey](screenshots/ieng6PrivateKey.jpg)
+![PrivKey](Screenshots/ieng6PrivateKey.jpg)
 
 Pushing changes in ieng6:
 
-![GitPush](screenshots/ieng6GitPush.png)
+![GitPush](Screenshots/ieng6GitPush.png)
 
 Link to commit: [ieng6 Commit](https://github.com/oXOjasviXo/Skillz_Demo_1/commit/49664cbfa541f9b874cf9af51369291000c89ea5)
 
@@ -39,14 +39,14 @@ Link to commit: [ieng6 Commit](https://github.com/oXOjasviXo/Skillz_Demo_1/commi
 
 Copying markdown-parse:
 
-![CopyMkdPrs](screenshots/SCPRepo.png)
+![CopyMkdPrs](Screenshots/SCPRepo.png)
 
 Running tests on ieng6:
 
-![ieng6Running](screenshots/SCPRunning.png)
+![ieng6Running](Screenshots/SCPRunning.png)
 
 Copying to ieng6 and running:
 
-![SCP+SSH Pt1](screenshots/SCP_SSHPt1.png)
+![SCP+SSH Pt1](Screenshots/SCP_SSHPt1.png)
 
-![SCP+SSH Pt2](screenshots/SCP_SSHPt2.png)
+![SCP+SSH Pt2](Screenshots/SCP_SSHPt2.png)
