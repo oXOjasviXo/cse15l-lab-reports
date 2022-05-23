@@ -12,76 +12,86 @@
 
 ## Testing:
 
+Static:
+
+![Static variables](screenshots/LAB_4_Static.png)
+
+I copied(from my clone) the Week 7 MarkdownParser.java file and renamed the class (and file) to MarkdownParseWeek7 to enable myself to run tests from 1 file/directory. The github link is to the specific commit from which I cloned.
+
 Before:
 
 ![Before for Tests](screenshots/LAB_4_Before.png)
 
-My Tests:
-
-![My Tests](screenshots/LAB_4_MyTests.png)
-
-Week 7 Tests:
-
-![Week 7 Tests](screenshots/LAB_4_Week7Tests.png)
-
-Results:
-
-![Test results ](screenshots/LAB_4_TestsResults1.png)
-
-![Test results ](screenshots/LAB_4_TestsResults2.png)
-
-![Test results ](screenshots/LAB_4_TestsResults3.png)
-
 ## Snippet 1:
 
-![Snip 1 file](screenshots/LAB_4_Snipp_1.png)
+**Expected:** \[\`google.com, google.com, ucsd.edu\]
 
-**Expected:** \[\`google.com\]
+### My Tests:
 
-My results: Fail
+![Test my snip 1](screenshots/LAB_4_Snipp_1Test.png)
 
-The junit results are under Testing Results at the start of the webpage 
+Failed
 
--Failed test number 1
+![My test snip 1 fail](screenshots/LAB_4_Snipp_1MyTestR.png)
 
-Week 7 results: Fail
+### Week 7 Tests:
 
-The junit results are under Testing Results at the start of the webpage
+![Test week 7 snip 1](screenshots/LAB_4_Snipp_1Test7.png)
 
--Failed test number 4
+Failed
+
+![Week 7 test snip 1 fail](screenshots/LAB_4_Snipp_17TestR.png)
 
 ## Snippet 2:
 
-![Snip 2 file](screenshots/LAB_4_Snipp_2.png)
-
 **Expected:** \[a.com, a.com\(\(\)\), example.com\]
 
-My results: Fail
+### My Tests:
 
-The junit results are under Testing Results at the start of the webpage
+![Test my snip 2](screenshots/LAB_4_Snipp_2Test.png)
 
--Failed test number 2
+Failed
 
-Week 7 results: Fail
+![My test snip 2 fail](screenshots/LAB_4_Snipp_1MyTestR.png)
 
-The junit results are under Testing Results at the start of the webpage
+### Week 7 Tests:
 
--Failed test number 5
+![Test week 7 snip 2](screenshots/LAB_4_Snipp_2Test7.png)
+
+Failed
+
+![Week 7 test snip 2 fail](screenshots/LAB_4_Snipp_27TestR.png)
 
 ## Snippet 3:
 
-![Snip 3 file](screenshots/LAB_4_Snipp_3.png)
+**Expected** \[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule\]
 
-**Expected:** \[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule\]
+### My Tests:
 
-My results: Fail
+![Test my snip 3](screenshots/LAB_4_Snipp_3Test.png)
 
-The junit results are under Testing Results at the start of the webpage
+Failed
 
--Failed test number 3
+![My test snip 3 fail](screenshots/LAB_4_Snipp_3MyTestR.png)
 
-Week 7 results: Fail
+### Week 7 Tests:
 
-The junit results are under Testing Results at the start of the webpage
+![Test week 7 snip 3](screenshots/LAB_4_Snipp_3Test7.png)
 
--Failed test number 6
+Failed
+
+![Week 7 test snip 3 fail](screenshots/LAB_4_Snipp_37TestR.png)
+
+## Fixes:
+
+### Snippet 1:
+I think that a less that 10 line code fix is possible if we just ignore all `[` or `]` that exist in between 2 backticks.
+We can do so by adding lines to first get the indexes of the backticks (same process as getting index for brackets) then we add an if statement that if any of the bracket/paenthesis indexes are in between 2 backticks we set current index to closing parenthesis and then continue the loop (essentially ignore this set of brackets and parenthesis).
+
+### Snippet 2:
+I think this code will take more than 10 lines because there are multiple problems:
+1. We will have to identify all escaped characters( one of`[ ] ( )`) and to do so we will need the indexes of all backslashes and then compare them with the index of the characters in the loop to identify whether or not to ignore the character.
+2. Nested Brackets will ahve to be assigned priority which will take more than 10 lines to code on top of the above problem
+
+### Snippet 3:
+I think that this fix is possible in 10 lines. To remove the newline character from output, just remove all `\n` from the string before adding it to toReturn. To ignore initial brackets with newline in them just check if there is a newline character in between the initial brackets and if so ignore this set of brackets.
