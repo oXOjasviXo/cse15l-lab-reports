@@ -14,13 +14,13 @@
 
 Static:
 
-![Static variables](screenshots/LAB_4_Static.png)
+![Static variables](Screenshots/LAB_4_Static.png)
 
 I copied(from my clone) the Week 7 MarkdownParser.java file and renamed the class (and file) to MarkdownParseWeek7 to enable myself to run tests from 1 file/directory. The github link is to the specific commit from which I cloned.
 
 Before:
 
-![Before for Tests](screenshots/LAB_4_Before.png)
+![Before for Tests](Screenshots/LAB_4_Before.png)
 
 ## Snippet 1:
 
@@ -28,19 +28,19 @@ Before:
 
 ### My Tests:
 
-![Test my snip 1](screenshots/LAB_4_Snipp_1Test.png)
+![Test my snip 1](Screenshots/LAB_4_Snipp_1Test.png)
 
 Failed
 
-![My test snip 1 fail](screenshots/LAB_4_Snipp_1MyTestR.png)
+![My test snip 1 fail](Screenshots/LAB_4_Snipp_1MyTestR.png)
 
 ### Week 7 Tests:
 
-![Test week 7 snip 1](screenshots/LAB_4_Snipp_1Test7.png)
+![Test week 7 snip 1](Screenshots/LAB_4_Snipp_1Test7.png)
 
 Failed
 
-![Week 7 test snip 1 fail](screenshots/LAB_4_Snipp_17TestR.png)
+![Week 7 test snip 1 fail](Screenshots/LAB_4_Snipp_17TestR.png)
 
 ## Snippet 2:
 
@@ -48,19 +48,19 @@ Failed
 
 ### My Tests:
 
-![Test my snip 2](screenshots/LAB_4_Snipp_2Test.png)
+![Test my snip 2](Screenshots/LAB_4_Snipp_2Test.png)
 
 Failed
 
-![My test snip 2 fail](screenshots/LAB_4_Snipp_1MyTestR.png)
+![My test snip 2 fail](Screenshots/LAB_4_Snipp_1MyTestR.png)
 
 ### Week 7 Tests:
 
-![Test week 7 snip 2](screenshots/LAB_4_Snipp_2Test7.png)
+![Test week 7 snip 2](Screenshots/LAB_4_Snipp_2Test7.png)
 
 Failed
 
-![Week 7 test snip 2 fail](screenshots/LAB_4_Snipp_27TestR.png)
+![Week 7 test snip 2 fail](Screenshots/LAB_4_Snipp_27TestR.png)
 
 ## Snippet 3:
 
@@ -68,19 +68,19 @@ Failed
 
 ### My Tests:
 
-![Test my snip 3](screenshots/LAB_4_Snipp_3Test.png)
+![Test my snip 3](Screenshots/LAB_4_Snipp_3Test.png)
 
 Failed
 
-![My test snip 3 fail](screenshots/LAB_4_Snipp_3MyTestR.png)
+![My test snip 3 fail](Screenshots/LAB_4_Snipp_3MyTestR.png)
 
 ### Week 7 Tests:
 
-![Test week 7 snip 3](screenshots/LAB_4_Snipp_3Test7.png)
+![Test week 7 snip 3](Screenshots/LAB_4_Snipp_3Test7.png)
 
 Failed
 
-![Week 7 test snip 3 fail](screenshots/LAB_4_Snipp_37TestR.png)
+![Week 7 test snip 3 fail](Screenshots/LAB_4_Snipp_37TestR.png)
 
 ## Fixes:
 
