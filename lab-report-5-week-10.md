@@ -62,6 +62,8 @@ if(!(nextCloseBracket == (openParen-1))){
 }
 ```
 
+![Point at where to add code](Screenshots/LAB5_201Week9Code_.jpg)
+
 this should prevent any links that don't have `]` and `(` next to each other to not be added to `toReturn`.
 
 ## Test Case \#2 (File 499.md):
@@ -84,3 +86,32 @@ this should prevent any links that don't have `]` and `(` next to each other to 
 
 ### Fix:
 
+Both implementations didn't give the expected output. I'll focus on the week 9 implementation.
+
+This happened because the week 9 implementation doesn't escape the special characters like `[`,`]`,`(`,`)` when there is a `\` before them. Because it doesn't ignore them it uses the `)` even though it has a `\` before it and hence ends the link before it was intened to.
+
+The fix for this will be long since whenever the code finds one of `[`,`]`,`(` or `)` it will have to check for a `\` before the character. I would do this by making/modifing the method to get the indexes of `[`,`]`,`(` or `)`. I would put the whole thing in a loop that runs at least once finds the character we are looking for then if index is equal to -1 or if character at index-1 is `\` then repeat.
+
+```
+static int findCharNoBackslash(String markdown, Character char,int start){
+    int index;
+    do{
+        index = markdown.indexOf(char,start);
+        if(markdown.charAt(index-1) != '\'){
+            break;
+        }
+    }while(index != -1)
+    return index;
+}
+```
+
+I would use the above method to get the index values of whichever special character I am looking for. To fix the code I would replace all calls of `markdown.indexOf(char,start)` to `findCharNoBackslash(markdown,char,start)`. (marked red in image)
+
+![Code highlights](Screenshots/LAB5_499Week9Code_11.jpg)
+
+For the findCloseParen method I would put lines 18 and 20 in an if statement 
+```
+if(markdown.charAt(closeParen-1)!='\'){
+    //code at line 18 or 20
+}
+```
