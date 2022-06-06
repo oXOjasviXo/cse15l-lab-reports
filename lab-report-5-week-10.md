@@ -107,7 +107,7 @@ I would use the above method to get the index values of whichever special charac
 
 ![Code highlights](Screenshots/LAB5_499Week9Code_11.jpg)
 
-For the findCloseParen method I would put lines 18 and 20 in an if statement 
+For the `findCloseParen` method I would put lines 18 and 20 in an if statement 
 ```
 if(markdown.charAt(closeParen-1)!='\'){
     //code at line 18 or 20
